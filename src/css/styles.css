@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 100%;
+    width: 336px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+}
+
+#input-panel {
+    padding: 5px 5px 20px 5px;
+    background-color: #4285F4;
+}
+
+#info-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f8f8f8;
+    height: 100%;
+    width: 336px;
+    z-index: -1;
+}
+
+.info {
+    padding-top: 99px;
+    display: block;
+}
+
+.distance {
+    
+}
+
+.duration {
+    
+}
+
+.liters {
+    
+}
+
+.cost {
+    
+}
+
+.textbox { 
+    height: 25px; 
+    width: 275px; 
+    background-color: transparent;  
+    border-style: solid;  
+    border-width: 0px 0px 1px 0px;  
+    border-color: white;
+    outline:0;
+    color: white;
+    padding-top: 10px;
+ } 
+/*  4285F4
+    3367D6
+    */
+    
+::-webkit-input-placeholder {
+    color:    white;
+}
+:-moz-placeholder {
+    color:    white;
+}
+::-moz-placeholder {
+    color:    white;
+}
+:-ms-input-placeholder {
+    color:    white;
+}
+
+.white {
+    color: white;
+}
+
+.paddingRight {
+    padding-right: 5px;
+}

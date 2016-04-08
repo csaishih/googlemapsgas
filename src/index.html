@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gas Map</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="floating-panel">
+            <div id="input-panel">
+                <div>
+                    <i class="fa fa-home white paddingRight"></i><input type="text" class="textbox" id="start" placeholder="Choose starting point"></input>
+                </div>
+                <div>
+                    <i class="fa fa-map-marker white paddingRight"></i><input type="text" class="textbox" id="end" placeholder="Choose destination"></input>
+                </div>
+            </div>
+            <div id="info-panel">
+            </div>
+        </div>
+        <div id="map"></div>
+        <script src="javascript/javascript.js" async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkIq8zoyETiwbh34EDQkQFf55V_CV3OUQ&callback=initMap"
+        async defer></script>
+    </body>
+</html>
+
